@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 sequenceDiagram autonumber actor User as 👤 사용자 participant App as 📱 모바일 앱 participant GPS as 🛰️ GPS/위치 서비스 participant MapAPI as ☁️ 지도/관광 API participant TTS as 🔊 TTS 엔진
 
 User-->App: 앱 실행
@@ -26,4 +26,4 @@ end
 
 deactivate App
 
-'''
+```
