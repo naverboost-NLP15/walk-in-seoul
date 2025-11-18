@@ -1,10 +1,10 @@
-Walk-in Seoul: AI 기반 몰입형 도보 여행 가이드
-발걸음 따라 스토리가 켜지는, 외국인·초행자를 위한 실시간 도보 여행 어시스턴트
+## Walk-in Seoul: AI 기반 몰입형 도보 여행 가이드
+### 발걸음 따라 스토리가 켜지는, 외국인·초행자를 위한 실시간 도보 여행 어시스턴트
+  
+### Overview
+Walk-in Seoul은 실시간 위치·날씨·혼잡도·사용자 선호도를 기반으로 서울 곳곳의 숨겨진 역사·문화 정보를 능동적으로 안내하는 AI Agent 기반 도보 여행 서비스입니다. 복잡한 정보 탐색 없이, 걷는 순간마다 새로운 이야기와 최적의 이동 동선을 제공하는 몰입형 관광 경험을 목표로 합니다.
 
-Overview
-Walk-in은 실시간 위치·날씨·혼잡도·사용자 선호도를 기반으로 서울 곳곳의 숨겨진 역사·문화 정보를 능동적으로 안내하는 AI Agent 기반 도보 여행 서비스입니다. 복잡한 정보 탐색 없이, 걷는 순간마다 새로운 이야기와 최적의 이동 동선을 제공하는 몰입형 관광 경험을 목표로 합니다.
-
-Key Features
+### Key Features
 1. 실시간 장소 인식 기반 설명
 * 사용자 위치를 기반으로 주변 관광지, 역사적 의미, 장소 맥락을 AI가 자동 안내
 * 외국인 사용자도 바로 이해할 수 있도록 다국어 지원 + TTS 제공
@@ -19,13 +19,13 @@ Key Features
 * 필요 API 자동 호출
 * 사용자 행동에 따라 실시간 코스 재조정
 
-Problem Statement & Motivation
+### Problem Statement & Motivation
 서울은 풍부한 문화·역사 자원을 갖추고 있지만, 외국인/초행자는 정보를 찾기 어렵고, 도보 여행 중 검색·번역을 반복해야 하는 불편이 존재합니다.
 또한 기존 관광 서비스는 대부분 정적 정보 제공에 그쳐 실시간 상황(날씨/혼잡/사용자 위치)을 반영하지 못합니다.
 Walk-in은 이러한 문제를 해결하기 위한 AI 기반 실시간 도보 여행 안내 서비스로 기획되었습니다.
 
-System Architecture
-아래 그림은 전체 구조 예시입니다. (실제 이미지 추가 시 이 부분에 삽입하세요.)
+### System Architecture
+아래 그림은 전체 구조 예시. 
 
 User → Frontend → Backend API  
       ↓                ↓  
@@ -33,14 +33,14 @@ User → Frontend → Backend API
       ↓  
 Recommendations / Explanations / TTS
 
-사용 기술
+### 사용 기술
 * LLM : Upstage Solar Pro 2 API
 * Agent : Tool 기반 능동적 계획 및 정보 호출
 * RAG : 관광지 정보/지식 제공
 * OCR/지도 API : 위치·혼잡도 실시간 확인
 * 기상청 API : 시간대별 날씨 확인
 
-📱 Service Flow
+### Service Flow
 1. 온보딩
     * 간단한 취향(문화·자연·쇼핑·역사 등) 선택
 2. 실시간 추천
@@ -54,7 +54,7 @@ Recommendations / Explanations / TTS
     * 위험 구간/혼잡 지역 회피
     * 일정 시간 내 코스 자동 리빌딩
 
-🌟 Expected Impact (사회·경제적 효과)
+### Expected Impact (사회·경제적 효과)
 1) 이용자 편의성 향상
 * 장소마다 숨은 의미를 실시간 안내
 * 검색/번역 없이도 여행 몰입도 크게 상승
@@ -66,17 +66,19 @@ Recommendations / Explanations / TTS
 * 외국인의 소비 동선 개선
 * 주변 문화 공간·상권 방문 증가 기대
 
-👥 Team Members & Roles
-이름	역할
-정예준	
-강지수	
-이석진	
-임우현	
-전현철	
-지현준	
+### Team Members & Roles
+| 이름     | 역할 |
+|----------|------|
+| 정예준   |  |
+| 강지수   |  |
+| 이석진   |  |
+| 임우현   |  |
+| 전현철   |  |
+| 지현준   |  |
 
 
-🛠️ Tech Stack
+
+### Tech Stack
 * Frontend: React / Next.js
 * Backend: FastAPI
 * Database: PostgreSQL
