@@ -1,7 +1,8 @@
 <div align="center">
   <p><strong><em>2025 새싹 해커톤
   </em></strong></p>
-  <img width="17%" alt="result" src="">
+  <img width="17%" alt="result" src="https://github.com/user-attachments/assets/8abd8877-6a73-4d4a-9b55-28170ebab42b" />
+
   <h2> Walk-in Seoul: AI 기반 몰입형 도보 여행 가이드 </h2>
   서울을 여행하는 다양한 국내•외 여행자들을 위해<br>
   실시간 위치·날씨·혼잡도·사용자 선호도를 기반으로<br>
