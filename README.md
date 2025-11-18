@@ -80,18 +80,6 @@
 
 <br>
 
-## Team Members & Roles
-| 이름   | 역할 |
-| ------ | ---- |
-| 정예준 |      |
-| 강지수 |      |
-| 이석진 |      |
-| 임우현 |      |
-| 전현철 |      |
-| 지현준 |      |
-
-<br>
-
 ## Tech Stack
 * Frontend: React / Next.js
 * Backend: FastAPI
